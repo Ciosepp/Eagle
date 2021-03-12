@@ -1,0 +1,10 @@
+Picklebox V2.0, pcb: THTV1.1 changelog
+
+added:
+	sdCard
+	i2c ports for APU, GPO_Board...
+	3v3 psu
+
+removed: 
+	n2 onBoard-GPO
+	op-amp elab in GPI1-4
