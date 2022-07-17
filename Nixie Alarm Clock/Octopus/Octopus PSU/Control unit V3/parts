@@ -1,0 +1,78 @@
+Partlist
+
+Exported from 2voices main.brd at 1/12/2022 2:21 AM
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package  Library  Position (inch)       Orientation
+
+C1       22u            E2,5-7   rcl      (0.475 0.375)         R270
+C2       22u            E2,5-7   rcl      (0.475 0.6625)        R270
+C3       1u             C0805    rcl      (2.225 0.5625)        R270
+C4       1u             C0805    rcl      (2.275 1.075)         R0
+C5       1u             C0805    rcl      (0.3 1.175)           R0
+IC1      TL084D         SO14     linear   (0.9875 0.8375)       R0
+IC2      TL084D         SO14     linear   (1.625 0.825)         R0
+IC3      TL084D         SO14     linear   (2.1375 0.825)        R0
+IC4      7805           TO220V   linear   (0.1625 0.875)        R90
+JP1      cv1            1X01     pinhead  (0.85 0.6375)         R180
+JP2      cv2            1X01     pinhead  (1.05 0.6125)         R180
+JP3      mod            1X01     pinhead  (0.925 1.2125)        R0
+JP4      10k-DETUNE     1X03     pinhead  (0.5 0.175)           R180
+JP5      SYNC_SW        1X03     pinhead  (0.8375 0.175)        R180
+JP6      CV_PWM         1X01     adafruit (2.4125 0.3)          R90
+JP7      10K_PW_OFF     1X03     pinhead  (2.6625 0.3)          R180
+JP8      PWR            1X03     pinhead  (0.2625 0.425)        R270
+JP9      A_out          1X01     adafruit (2.5375 1.3)          R180
+JP10     100KBLENDO12   1X03     pinhead  (2.6625 0.825)        R270
+JP11     o1BLin         1X01     adafruit (2.275 0.4)           R0
+JP12     o2BLin         1X01     adafruit (2.5375 1.0625)       R0
+JP13     Shift2         1X01     pinhead  (1.65 1.1)            R0
+JP14     CV2            1X01     pinhead  (1.4625 0.3)          R0
+JP15                    1X02     pinhead  (1.9125 0.4875)       R270
+JP16     osc1_shift     1X01     pinhead  (1.6 1.225)           R0
+JP17     REF            1X03     pinhead  (0.725 1.3625)        R0
+R1       10k            R0805    rcl      (0.7375 0.7625)       R90
+R2       10k            R0805    rcl      (1.25 0.925)          R0
+R3       10k            R0805    rcl      (1.2125 0.7875)       R90
+R4       10k            R0805    rcl      (0.7375 0.9125)       R270
+R5       1k             R0805    rcl      (1.0125 1.3375)       R270
+R6       3.9k           R0805    rcl      (1.1125 1.225)        R270
+R7       500R-S2GAIN    S63S     pot      (1.2625 1.2)          R90
+R8       470k           R0805    rcl      (0.85 0.525)          R90
+R9       470k           R0805    rcl      (1.05 0.475)          R90
+R10      470k           R0805    rcl      (0.925 1.3375)        R270
+R11      100k           R0805    rcl      (1.4375 1.2)          R90
+R12      100k           R0805    rcl      (1.75 0.4375)         R180
+R13      100k-OS1OFF    S63S     pot      (2.0375 0.1375)       R0
+R14      10k            R0805    rcl      (1.475 1.075)         R180
+R15      10k            R0805    rcl      (1.6625 0.575)        R0
+R16      10k            R0805    rcl      (1.75 1.0625)         R270
+R17                     R0805    rcl      (0.9375 0.05)         R180
+R18                     R0805    rcl      (1.05 0.3125)         R270
+R19      10k-TUNE       S63S     pot      (1.2 0.125)           R180
+R20      2.7k           R0805    rcl      (1.625 0.325)         R90
+R21      1k             R0805    rcl      (1.75 0.3125)         R180
+R22      500R-SU2GAIN   S63S     pot      (1.625 0.1375)        R0
+R23      56k            R0805    rcl      (0.85 0.3125)         R180
+R24      56k            R0805    rcl      (0.275 0.1625)        R90
+R25      100k           R0805    rcl      (1.4 0.675)           R90
+R26      100k           R0805    rcl      (1.4 0.45)            R270
+R27      100k-OS2OFF    S63S     pot      (1.2375 0.5125)       R270
+R28      10k            R0805    rcl      (2.1875 1.2125)       R0
+R29      4k             S63S     pot      (0.5375 1)            R270
+R30      6k             S63S     pot      (0.375 1.325)         R0
+R31      10k            R0805    rcl      (0.3875 0.9375)       R90
+R32      47K            R0805    rcl      (2.4125 0.45)         R90
+R33      47K            R0805    rcl      (2.6875 0.45)         R90
+R34      2K             R0805    rcl      (2.55 0.45)           R90
+R35      10k            R0805    rcl      (2.4375 0.675)        R0
+R36      10k            R0805    rcl      (2.4375 0.775)        R180
+R37      10K            R0805    rcl      (2.4125 0.925)        R0
+R38      10K            R0805    rcl      (2.5375 0.8875)       R270
+R39      330R           R0805    rcl      (2.1875 1.3)          R180
+R40      10k            S63S     pot      (1.9875 1.2)          R270
+R41      47K            R0805    rcl      (1.9375 0.6625)       R90
+R42      47K            R0805    rcl      (2.025 0.5875)        R90
